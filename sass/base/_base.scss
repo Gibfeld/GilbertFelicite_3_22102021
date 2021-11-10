@@ -1,12 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-    font-size: 14px;
+    font-family: Roboto, sans-serif;
 }
 h1 {
     font-family: Shrikhand;
 }
+.location {
+    font-weight: 3.5rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+.location i{
+    margin-right: 1rem;
+
+}
+// section ohmyfood introduction
+.introduction {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(white, #EAEAEA);
+    & h2 {
+      align-self: center;
+      margin-top: 3rem;
+    }
+    & h4 {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+}
+.introduction button.btn {
+    position: relative;
+    background: linear-gradient(to bottom right, $secondaire, $primaire);
+    color: white;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 6%;
+    width: 15rem;
+    max-width: 250px;
+    align-self: center;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15), 3px 3px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+.introduction button.btn:hover {
+    background: linear-gradient(to bottom right, #ff93e1, #a16be0);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(0, 0, 0, 0.1)
+} 
+
