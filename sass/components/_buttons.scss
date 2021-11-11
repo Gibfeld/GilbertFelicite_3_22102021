@@ -1,0 +1,20 @@
+.introduction button.btn {
+    position: relative;
+    background: linear-gradient(to bottom right, $secondaire, $primaire);
+    color: white;
+    font-size: large;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 6%;
+    width: 15rem;
+    max-width: 250px;
+    align-self: center;
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15), 3px 3px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+.introduction button.btn:hover {
+    background: linear-gradient(to bottom right, #ff93e1, #a16be0);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(0, 0, 0, 0.1)
+} 
