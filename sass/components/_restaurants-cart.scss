@@ -1,0 +1,69 @@
+.restaurants {
+    padding: 3rem 3rem 3rem 3rem;
+    background-color: #f6f6f6;
+    align-items: center;
+}
+.restaurants_title {
+    align-self: start;
+}
+.restaurants_card {
+    flex: 100%;
+    margin: 3vw 0px;
+    display: flex;
+    background-color: $white;
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 20px 20px;
+    height: fit-content;
+    overflow: hidden;
+    width: 90vw;
+}
+.restaurants_card_img {
+    position: relative;
+    width: 90vw;
+}
+.restaurants_card_img img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+.restaurants_card_img_new {
+    font-weight: bold;
+    z-index: 1;
+    background-color: #99e2d0;
+    color: #1a8a68;
+    width: 80px;
+    display: block;
+    text-align: center;
+    right: 1em;
+    top: 1em;
+    position: absolute;
+    height: 2.5em;
+    line-height: 0.7em;
+    white-space: nowrap;
+}
+.restaurants_card_caption {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+.restaurants_card_caption_txt {
+    padding: 0 1rem;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+.restaurants_card_caption_txt p {
+    font-weight: lighter;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+}
+.restaurants_card_caption_txt h4 {
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+.restaurants_card_caption_hrt {
+    padding: 0px;
+    position: relative;
+    bottom: 10px;
+}
