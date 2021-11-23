@@ -1,0 +1,43 @@
+.loading {
+    opacity: 0;
+    z-index: -1;
+    background-color: rgb(222, 195, 247);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: 3s loading-spinner;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    &__icon {
+        animation: 200ms loading-icon;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes loading-spinner {
+    0% {
+        opacity: 1;
+        z-index: 9999;
+    }
+    90% {
+        opacity: 1;
+        z-index: 9999;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+
+}
+@keyframes loading-icon {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}

@@ -9,11 +9,14 @@
     <title>Ohmyfood</title>
 </head>
 <body>
+    <div class="loading">
+        <i class="fas fa-5x loading__icon fa-spinner"></i>
+    </div>
     <!--header contenant le logo présent sur toutes les pages-->
     <header>
         <div class="header">
             <h1>
-                <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood"
+                <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
             </h1>
         </div>
     </header>
@@ -41,7 +44,7 @@
                 </div>
                 <span><i class="fas fa-list-ul"></i>Composez votre menu</span>
             </div>
-            <div class="instructions_btn">
+            <div class="instructions_btn primaire_st">
                 <div class="instructions_btn_number"><p>3</p>
                 </div>
                 <span><i class="fas fa-store"></i>Dégustez au restaurant</span>
@@ -64,11 +67,11 @@
                                 <h4>La palette du goût</h4>
                                 <p>Ménilmontant</p>
                             </div>
-                            <div class="restaurants_card_caption_hrt card_caption_hrt">
+                            <div class="restaurants_card_caption_heart card_caption_heart">
                                 <p>
-                                    <span class="fa-stack">
-                                        <i class="far fa-heart fa-stack-1x"></i>
-                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    <span class="restau-heart">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-heart fa-heart-animated" aria-hidden="true"></i>
                                     </span>    
                                 </p>
                             </div>
@@ -76,7 +79,7 @@
                     </a>
                 </article>
                 <article class="restaurants_card">
-                    <a href="restaurants/palette_du_goût.html">
+                    <a href="restaurants/la_note_enchantée.html">
                         <div class="restaurants_card_img card_img">
                             <div class="restaurants_card_img_new card_img_new">
                                 <p>Nouveau</p>
@@ -88,11 +91,11 @@
                                 <h4>La note enchantée</h4>
                                 <p>Charonne</p>
                             </div>
-                            <div class="restaurants_card_caption_hrt card_caption_hrt">
+                            <div class="restaurants_card_caption_heart card_caption_heart">
                                 <p>
-                                    <span class="fa-stack">
-                                        <i class="far fa-heart fa-stack-1x"></i>
-                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    <span class="restau-heart">
+                                        <i class="far fa-heart" aria-hidden="true"></i>
+                                        <i class="fas fa-heart fa-heart-animated"></i>
                                     </span>    
                                 </p>
                             </div>
@@ -100,11 +103,8 @@
                     </a>
                 </article>
                 <article class="restaurants_card">
-                    <a href="restaurants/palette_du_goût.html">
+                    <a href="restaurants/a_la_française.html">
                         <div class="restaurants_card_img card_img">
-                            <div class="restaurants_card_img_new card_img_new">
-                                <p>Nouveau</p>
-                            </div>
                             <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française">
                         </div>
                         <div class="restaurants_card_caption card_caption">
@@ -112,11 +112,11 @@
                                 <h4>A la française</h4>
                                 <p>Cité Rouge</p>
                             </div>
-                            <div class="restaurants_card_caption_hrt card_caption_hrt">
+                            <div class="restaurants_card_caption_heart card_caption_heart">
                                 <p>
-                                    <span class="fa-stack">
-                                        <i class="far fa-heart fa-stack-1x"></i>
-                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    <span class="restau-heart">
+                                        <i class="far fa-heart" aria-hidden="true"></i>
+                                        <i class="fas fa-heart fa-heart-animated" aria-hidden="true"></i>
                                     </span>    
                                 </p>
                             </div>
@@ -124,11 +124,8 @@
                     </a>
                 </article>
                 <article class="restaurants_card">
-                    <a href="restaurants/palette_du_goût.html">
+                    <a href="restaurants/le_délice_des_sens.html">
                         <div class="restaurants_card_img card_img">
-                            <div class="restaurants_card_img_new card_img_new">
-                                <p>Nouveau</p>
-                            </div>
                             <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens">
                         </div>
                         <div class="restaurants_card_caption card_caption">
@@ -136,11 +133,11 @@
                                 <h4>Le délice des sens</h4>
                                 <p>Folie-Méricourt</p>
                             </div>
-                            <div class="restaurants_card_caption_hrt card_caption_hrt">
+                            <div class="restaurants_card_caption_heart card_caption_heart">
                                 <p>
-                                    <span class="fa-stack">
-                                        <i class="far fa-heart fa-stack-1x"></i>
-                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    <span class="restau-heart">
+                                        <i class="far fa-heart" aria-hidden="true"></i>
+                                        <i class="fas fa-heart fa-heart-animated" aria-hidden="true"></i>
                                     </span>    
                                 </p>
                             </div>
@@ -151,9 +148,7 @@
         </section>
     </main>
     <footer class="footer">
-        <h5>
-            <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood footer">
-        </h5>
+        <h2 class="footer_logo">ohmyfood</h2>
         <ul class="footer_menu">
             <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
             <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>

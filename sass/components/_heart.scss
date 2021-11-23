@@ -1,0 +1,15 @@
+.card_caption_heart {
+    position: relative;
+    padding: 0px;
+    bottom: 10px;
+    font-size: 25px;
+}
+.fa-heart-animated {
+    position: relative;
+    transform: translateX(-50%);
+    bottom: 0;
+    font-size: 0px;
+    color: #9356DC;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
