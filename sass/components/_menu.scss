@@ -28,44 +28,51 @@
     transform: translateY(-80px);
     margin-bottom: -80px;
     padding: 5px 5vw;
-    background-color: #f6f6f6;
-    font-family: shrikhand;
-    font-size: large;
+    background-color: #f3f0f0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: large;
+}
+.restaurant__name h2 {
+    font-family: shrikhand;
+    margin-left: 0.5rem;
+    font-weight: 200;
 }
 .menu {
     display: flex;
     flex-direction: column;
     padding: 0 0vw;
-    background: #f6f6f6;
+    background: #f3f0f0;
 }
 .menu h3 {
-    padding-bottom: 0px;
-    margin: 0 5vw;
+    padding-bottom: 0.3rem;
+    margin: 0 7vw;
+    font: inherit;
 }
 .menu h4, .menu p {
     padding: 0.25rem 5vw;
 }
 .menu h4 {
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
     font-size: larger;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin-left: -0.4rem;
+    height: 38px;
 }
 .menu p {
     margin-bottom: 5px;
 }
 .underline-h3 {
-    width: 40px;
+    width: 41px;
     height: 0.25em;
     background-color: #99e2d0;
     margin: 0;
     padding: 0;
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 .menu__carte_entrees .card {
     animation-name: appear;
@@ -132,7 +139,6 @@
 .card__text {
     display: flex;
     white-space: nowrap;
-    /* interdiction de passer à la ligne */
     flex-direction: column;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -149,7 +155,7 @@
     margin-top: 2px;
     overflow: hidden;
     white-space: nowrap;
-    /* interdiction de passer à la ligne */
+    margin-left: -0.4rem;
 }
 .card__text__description__ingredients {
     text-overflow: ellipsis;
@@ -162,18 +168,20 @@
     background-color: #99e2d0;
     font-size: xx-large;
     text-align: center;
-    height: 2.1em;
-    /* hauteur du parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     line-height: 2.1em;
-    /* hauteur de ligne (identique) */
     white-space: nowrap;
-    /* interdiction de passer à la ligne */
     border-top-right-radius: 20px 20px;
     border-bottom-right-radius: 20px 20px;
-    transform: translateX(100px);
+    transform: translateX (100PX);
     cursor: pointer;
     transition: all 700ms;
     width: 0px;
+    i {
+        margin-right: 0px;
+    }
 }
 .card:hover > .card__check {
     background-color: #99e2d0;
@@ -192,31 +200,15 @@
     transition: transform 700ms;
 }
 .btn {
-    width: 200px;
     align-self: center;
     margin: 2rem;
 }
-.btn {
-    position: relative;
-    background: linear-gradient(to bottom right, $secondaire, $primaire);
-    color: white;
-    font-size: large;
-    padding: 1rem;
-    border-radius: 50px;
-    border: none;
-    margin-bottom: 6%;
-    width: 15rem;
-    max-width: 250px;
-    align-self: center;
-    text-align: center;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15), 3px 3px 6px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
-}
-btn:hover {
-    background: linear-gradient(to bottom right, #ff93e1, #a16be0);
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(0, 0, 0, 0.1)
-}
-
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f0f0;
+  }
+  
 
 
 

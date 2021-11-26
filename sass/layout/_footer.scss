@@ -6,22 +6,19 @@
     margin-bottom: 0;
     padding-bottom: 2rem;
     padding-top: 1rem;
-
-    & h2 {
-      font-family: "shrikhand";
-      font-size: 20px;
-      margin-left: 2.5rem;
-      margin-top: 0px;
-    }
     & ul {
         list-style: none;
         line-height: 1.5rem;
+        margin-left: -1rem;
+        margin-bottom: -0.5rem;
     }
-    & li i {
-      color: $white;
-      margin-right: 12px;
-      font-size: 12px;
-      & li a {
+    & li {
+      & i {
+        color: $white;
+        margin-right: 12px;
+        font-size: 12px;
+      }
+      & a {
         color: $white;
         text-decoration: none;
         &:visited {
@@ -29,4 +26,11 @@
         }
       }
     }
+    
+}
+.footer-logo {
+  filter: invert(100%);
+  width: 8rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
 }
