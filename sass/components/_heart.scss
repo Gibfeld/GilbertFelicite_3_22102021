@@ -3,13 +3,38 @@
     padding: 0px;
     bottom: 10px;
     font-size: 25px;
+    cursor: pointer;
+    padding-right: 25px;
+    .far {
+        position: relative;
+        left: 31px;
+    }
+    &:hover {
+        .fas {
+            transform: scale(1);
+        }
+    }
 }
 .fa-heart-animated {
     position: relative;
-    transform: translateX(-50%);
+    color: $primaire;
+    transform: scale(0);
     bottom: 0;
-    font-size: 0px;
-    color: #9356DC;
     font-weight: bold;
     transition-duration: 0.5s;
+    transform-origin: center bottom;
+}
+.card_caption_heart-menu {
+    position: relative;
+    padding: 0px;
+    bottom: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 25px;
+    .far {
+        position: relative;
+        left: 10px;
+        padding-top: 11px;
+    }
+
 }

@@ -22,7 +22,7 @@
     width: 100%;
     object-fit: cover;
 }
-.restaurant__name {
+.restaurant_name {
     border-top-left-radius: 40px 40px;
     border-top-right-radius: 40px 40px;
     transform: translateY(-80px);
@@ -34,36 +34,35 @@
     justify-content: space-between;
     font-size: large;
 }
-.restaurant__name h2 {
+.restaurant_name h2 {
     font-family: shrikhand;
     margin-left: 0.5rem;
     font-weight: 200;
 }
-.menu {
+.menus {
     display: flex;
     flex-direction: column;
     padding: 0 0vw;
     background: #f3f0f0;
 }
-.menu h3 {
+.menus h3 {
     padding-bottom: 0.3rem;
     margin: 0 7vw;
     font: inherit;
 }
-.menu h4, .menu p {
+.menus h4, .menus p {
     padding: 0.25rem 5vw;
 }
-.menu h4 {
+.menus h4 {
     margin-bottom: 0px;
     margin-top: 5px;
     font-size: larger;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-left: -0.4rem;
     height: 38px;
 }
-.menu p {
+.menus p {
     margin-bottom: 5px;
 }
 .underline-h3 {
@@ -74,7 +73,7 @@
     padding: 0;
     margin-left: 7vw;
 }
-.menu__carte_entrees .card {
+.menu_carte_entrees .card {
     animation-name: appear;
     animation-duration: 1000ms;
     animation-fill-mode: backwards;
@@ -89,7 +88,7 @@
       transform: translateY(0);
     }
 }
-.menu__carte_plats .card {
+.menu_carte_plats .card {
     animation-name: appear;
     animation-duration: 1000ms;
     animation-fill-mode: backwards;
@@ -104,7 +103,7 @@
       transform: translateY(0);
     }
 }
-.menu__carte_desserts .card {
+.menu_carte_desserts .card {
     animation-name: appear;
     animation-duration: 1000ms;
     animation-fill-mode: backwards;
@@ -119,12 +118,12 @@
       transform: translateY(0);
     }
 }
-.menu__carte_desserts .card {
+.menu_carte_desserts .card {
     animation-delay: 1s;
 }
 .card {
     background-color: white;
-    box-shadow: 2px 2px 2px lightgrey;
+    box-shadow: 2px 4px 6px lightgrey;
     border-radius: 20px 20px;
     height: fit-content;
     margin: 1rem;
@@ -136,7 +135,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.card__text {
+.card_text {
     display: flex;
     white-space: nowrap;
     flex-direction: column;
@@ -145,25 +144,24 @@
     transition: all 700ms;
     width: 100%;
 }
-.card__text__description {
+.card_text_description {
     flex: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.card__text__description p {
+.card_text_description p {
     margin-top: 2px;
     overflow: hidden;
     white-space: nowrap;
-    margin-left: -0.4rem;
 }
-.card__text__description__ingredients {
+.card_text_description_ingredients {
     text-overflow: ellipsis;
 }
-.card__text__description__price {
+.card_text_description_price {
     font-weight: bold;
 }
-.card__check {
+.card_check {
     color: #f6f6f6;
     background-color: #99e2d0;
     font-size: xx-large;
@@ -183,13 +181,13 @@
         margin-right: 0px;
     }
 }
-.card:hover > .card__check {
+.card:hover > .card_check {
     background-color: #99e2d0;
     cursor: pointer;
     color: #f6f6f6;
     width: 25%;
 }
-.card:hover > .card__text {
+.card:hover > .card_text {
     width: 75%;
 }
 .card:hover .fa-check-circle {
@@ -207,6 +205,43 @@
     display: flex;
     justify-content: center;
     background-color: #f3f0f0;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .menus {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+    .menus h3 {
+      margin: 0 1rem;
+    }
+    .menus h4, .menus p {
+      padding: 0.25rem 1rem;
+    }
+  
+    .underline-h3 {
+      margin-left: 1rem;
+    }
+  
+    .card {
+      max-width: 310px;
+    }
+    .card_text {
+      padding: 0px;
+    }
+    .card_check {
+      height: 77px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .card {
+      max-width: 400px;
+    }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
   }
   
 
