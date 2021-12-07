@@ -23,6 +23,17 @@ La page d'accueil et les 4 pages des menus ont été réalisés selon les maquet
 
 #### Effets graphiques et animations :
 Les effets, accessibles au clic ou au survol sont visbles sur la maquette.  
-Il devront utiliser les animations ou transitions CSS, pas de JavaScript ni de librairie.
+Il devront utiliser les animations ou transitions CSS, pas de JavaScript ni de librairie.  
+
+## Réalisation  
+* Le site respecte les fonctionnalités et les contraintes techniques pour l'intégration des maquettes.  
+* Pour faciliter l'intégration, la maquette de la page d'accueil a été délimité en différentes parties afin de structurer la page, concernant les pages menu, j'ai travaillé les animations à partir des maquettes vidéos fourni.
+* J'ai utiliser la méthode BEM et le pré-processeur SASS pour le code.  
+* Le projet a été réaliser avec le navigateur Chrome et testé aussi sur le navigateur Firefox.
+* Le code a été vérifier au validateur W3C pour le HTML et CSS et ne contient pas d'erreur.
+* Le code a été versionné sur Github et est accessible sur Github Pages à l'adresse:(https://gibfeld.github.io/GilbertFelicite_3_22102021)
+  
+
+
 
 
