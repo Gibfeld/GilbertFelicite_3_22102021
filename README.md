@@ -1,6 +1,6 @@
 #  Ohmmyfood
 
-C'est  le troisième  projet de la formation  "développeur web" chez Openclassroom. Ce projet a pour objectifs l'utilisation de la méthode BEM, de SCSS, des animations et des transitions.
+C'est  le troisième  projet de la formation  "développeur web" chez Openclassroom. Ce projet a pour objectifs l'utilisation de SASS, du Système 7-1, des animations et des transitions.
 
 Ohmyfood est un site de commande de repas en ligne. Le concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.
 
