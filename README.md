@@ -1,6 +1,6 @@
 #  Ohmmyfood
 
-C'est  le troisième  projet de la formation  "développeur web" chez Openclassroom. Ce projet a pour objectifs l'utilisation de SASS, du Système 7-1, des animations et des transitions.
+C'est  le troisième  projet de la formation  "développeur web" chez Openclassroom. Ce projet a pour objectifs l'utilisation de SASS, du Système de fichiers 7-1, des animations et des transitions.
 
 Ohmyfood est un site de commande de repas en ligne. Le concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.
 
@@ -28,7 +28,7 @@ Il devront utiliser les animations ou transitions CSS, pas de JavaScript ni de l
 ## Réalisation  
 * Le site respecte les fonctionnalités et les contraintes techniques pour l'intégration des maquettes.  
 * Pour faciliter l'intégration, la maquette de la page d'accueil a été délimité en différentes parties afin de structurer la page, concernant les pages menu, j'ai travaillé les animations à partir des maquettes vidéos fourni.
-* J'ai utiliser la méthode BEM et le pré-processeur SASS pour le code.  
+* J'ai utiliser le système de fichiers 7-1 et le pré-processeur SASS pour le code.  
 * Le projet a été réaliser avec le navigateur Chrome et testé aussi sur le navigateur Firefox.
 * Le code a été vérifier au validateur W3C pour le HTML et CSS et ne contient pas d'erreur.
 * Le code a été versionné sur Github et est accessible sur Github Pages à l'adresse:(https://gibfeld.github.io/GilbertFelicite_3_22102021)
