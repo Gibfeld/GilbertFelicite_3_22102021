@@ -36,5 +36,16 @@
         left: 10px;
         padding-top: 11px;
     }
-
 }
+@media screen and (max-width: 768px) {
+    .pages-restaurants .card_caption_heart {
+        padding-right: 0px;
+        bottom: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 100px;
+    }
+}
+
+
